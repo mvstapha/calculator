@@ -85,7 +85,7 @@ function multiply(x,y){
 }
 function divide(x,y){
     if (y===0){
-        return "Division Impossible by 0";
+        return "Impossible";
     }
     return x/y;
 }

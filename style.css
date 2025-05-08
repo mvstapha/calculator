@@ -16,12 +16,14 @@ body {
 }
 
 .display {
-    border: none;
+    border: 1px rgba(49, 49, 49, 0.568) solid;
+    padding: 30px 10px;
+    border-radius: 10px;
     height: 60px;
     width: 100%;
     display: flex;
     color: white;
-    font-size: 60px;
+    font-size: 40px;
     align-items: center;
 }
 
