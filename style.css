@@ -90,7 +90,7 @@ body {
     border: none;
 }
 
-.row-last .operator {
+.row-last .equal {
     flex: 3;
     border: none;
 }
@@ -101,9 +101,18 @@ body {
 .operator:hover{
     background: #f3a32b;
 }
+.equal{
+    background: #ff9f0a;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 9px;
+    text-align: center;
+    border: none;
+    color: white;
+}
 
 .calculator{
     background: #0c0c0c;
-    padding: 40px 20px;
+    padding: 50px 20px;
     border-radius: 20px;
 }
